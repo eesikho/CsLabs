@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventLog", "EventLog\EventLog.csproj", "{AAE1DEB1-09E8-4A22-8481-00E6F60D13A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventLog.Tests", "EventLog.Tests\EventLog.Tests.csproj", "{BFB6DAA8-900A-4BBB-AA81-58A8053DD613}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAE1DEB1-09E8-4A22-8481-00E6F60D13A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE1DEB1-09E8-4A22-8481-00E6F60D13A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE1DEB1-09E8-4A22-8481-00E6F60D13A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE1DEB1-09E8-4A22-8481-00E6F60D13A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB6DAA8-900A-4BBB-AA81-58A8053DD613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB6DAA8-900A-4BBB-AA81-58A8053DD613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB6DAA8-900A-4BBB-AA81-58A8053DD613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB6DAA8-900A-4BBB-AA81-58A8053DD613}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
