@@ -6,10 +6,6 @@ public class Program
     {
         string[] lines = File.ReadAllLines("..//..//..//event_server.log");
         LogEntry[] entries = ParseLog(lines);
-        // foreach (LogEntry entry in entries)
-        // {
-        //     Console.WriteLine($"{entry.Timestamp}{entry.Level}{entry.Category}{entry.Message}");
-        // }
     }
 
     public static LogEntry[] ParseLog(string[] lines)
