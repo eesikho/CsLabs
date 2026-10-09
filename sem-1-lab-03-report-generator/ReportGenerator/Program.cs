@@ -27,7 +27,7 @@ public class Program
                "Победитель: " + winner + "\n" +
                "Очки победителя: " + pointWinner + "\n" +
                "Ивентовый предмет: " + eventItem + "\n" +
-               "Утешительная награда Железных волков: " + miniPoint + " очков \n" +
+               "Утешительная награда Железных волков: " + miniPoint + " очков\n" +
                "Предупреждений во время события: " + countWarning + "\n" +
                "Ошибок во время события: " + countError;
     }
@@ -57,7 +57,7 @@ public class Program
         return eventLines;
     }
 
-    static (string dateTime, string level, string category,  string message) ProcessingLine(string line)
+    static (DateTime dateTime, string level, string category,  string message) ProcessingLine(string line)
     {
         string dateTime = line.Substring(0, 23);
 
@@ -71,7 +71,7 @@ public class Program
         
         string message = line.Substring(index4 + 1, line.Length - index4 - 1);
 
-        return (dateTime, level, category, message);
+        return (DateTime.Parse(dateTime), level, category, message);
     }
 
     static string FindLine(string[] eventLines, string search)
@@ -96,9 +96,8 @@ public class Program
     static string ProcessingDate(string[] eventLines)
     {
         string line = FindLine(eventLines, "Событие началось:");
-        string datePart = ProcessingLine(line).dateTime;
-        DateTime date = DateTime.Parse(datePart);
-        return date.ToShortDateString();
+        DateTime datePart = ProcessingLine(line).dateTime;
+        return datePart.ToShortDateString();
     }
     
     static string ProcessingWinner(string[] eventLines)
