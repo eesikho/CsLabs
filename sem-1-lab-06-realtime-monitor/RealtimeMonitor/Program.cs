@@ -2,7 +2,7 @@
 
 using System;
 
-internal class Program
+public class Program
 {
     private static void Main()
     {
@@ -45,7 +45,7 @@ internal class Program
         DrawGraph(temperatureHistory, "Температура процессора (°C)");
     }
 
-    static void DrawGraph(double[] history, string text)
+    public static void DrawGraph(double[] history, string text)
     {
         Console.WriteLine($"{text}: {history[history.Length - 1]}");
         for (int level = 100; level >= 10; level -= 10)
