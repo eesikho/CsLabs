@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryTree", "DirectoryTree\DirectoryTree.csproj", "{383ADD5D-240A-4D90-82D5-124E96B25987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryTree.Tests", "DirectoryTree.Tests\DirectoryTree.Tests.csproj", "{F98FB291-99A6-49F3-AB1F-D28360D24027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383ADD5D-240A-4D90-82D5-124E96B25987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383ADD5D-240A-4D90-82D5-124E96B25987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383ADD5D-240A-4D90-82D5-124E96B25987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383ADD5D-240A-4D90-82D5-124E96B25987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98FB291-99A6-49F3-AB1F-D28360D24027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98FB291-99A6-49F3-AB1F-D28360D24027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98FB291-99A6-49F3-AB1F-D28360D24027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98FB291-99A6-49F3-AB1F-D28360D24027}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
